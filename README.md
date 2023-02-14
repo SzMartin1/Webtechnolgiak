@@ -1,1 +1,1 @@
-# Webtechnolgiak
+# Webtechnolgiák beadandó feladat
