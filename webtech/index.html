@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webtechnológiák beadandó</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="jquery-3.6.3.min.js"></script>
+</head>
+<body>
+<!-- Navigation bar section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">Page of Colors</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Kezdőoldal</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">Rólam</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#studies" class="navbar__links" id="studies-page">Tanulmányok</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#sign-up" class="button" id="signup">Elérhetőség</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section-->
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading">Webtechnológiák<span> beadandó</span></h1>
+            <p class="hero__description">Készítette: Szabó Martin</p>
+            <button class="main__btn"><a href="#">Explore</a></button>
+        </div>
+    </div>
+
+    <!-- About Section-->
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img--container">
+                <div class="main__img--card">Webtechnológiák :O</div>
+            </div>
+            <div class="main__content">
+                <h1>A nevem Szabó Martin</h1>
+                <h2>Programtervező informatikus hallgató</h2>
+                <p>Harmadéves</p>
+                <button class="main__btn"><a href="aboutme.html">Tudj meg rólam többet</a></button>
+            </div>
+        </div>
+    </div>
+<!-- Studies Section -->
+    <div class="studies" id="studies">
+        <h1>Tanulmányaim</h1>
+        <div class="studies__wrapper">
+            <div class="studies__card">
+                <h2>Általános iskola</h2>
+                <p>Petőfi Sándor Általános Iskola</p>
+                <div class ="studies__btn"><button><a href="studies.html">Tudj meg többet</a></button></div>
+            </div>
+            <div class="studies__card">
+                <h2>Középiskola</h2>
+                <p>Földes Ferenc Gimnázium</p>
+                <div class ="studies__btn"><button><a href="studies.html">Tudj meg többet</a></button></div>
+            </div>
+            <div class="studies__card">
+                <h2>Egyetem/Főiskola</h2>
+                <p>Miskolci Egyetem</p>
+                <div class ="studies__btn"><button><a href="studies.html">Tudj meg többet</a></button></div>
+            </div>
+        </div>
+    </div>
+    <!--Sign up section -->
+    <div class="main" id="sign-up">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Telefonszám: +36 30 123 2323</h1>
+                <h2>E-mail cím: martinszabo775@gmail.com</h2>
+                <p>Az alábbi form kitöltésével rögtön kapcsolatba léphet velem</p>
+                <button class="main__btn"><a href="contactme.html">Form kitöltése</a></button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
